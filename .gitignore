@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribuição
+*.egg-info/
+dist/
+build/
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Test / cache
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Alembi
+alembic/__pycache__/

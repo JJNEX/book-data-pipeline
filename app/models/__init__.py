@@ -1,0 +1,1 @@
+from app.feature.book.book import Book

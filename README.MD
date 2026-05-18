@@ -91,9 +91,11 @@ uvicorn app.main:app --reload
 ##  🧪 Testes
 
 ```bash
-pytest tests/api/test_book.py -v
+pytest tests/api/test_config.py -v
+pytest tests/api/test_error.py -v
 pytest tests/test_parser.py -v
 pytest tests/test_repository.py -v
+pytest tests/test_parser.py -v
 ```
 
 ## 🐘 Migrations
